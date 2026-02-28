@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#050505] text-white flex flex-col items-center overflow-x-hidden">
-      <div className="w-full max-w-[1440px] border-x border-white/5 relative">
+      <div className="w-full relative">
         <Navbar />
         <Hero />
         <Audit />
